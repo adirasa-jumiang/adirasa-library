@@ -50,7 +50,7 @@ const books = [
     {
     title: "Saki Sakit Gigi (Sri Widiyastuti)",
     file: "https://drive.google.com/file/d/1F8aypvTOTK17VAQv6rOGANBLVGw7MV1H/preview",
-    cover: "covers/sakit-sakit Gigi.PNG",
+    cover: "covers/Sakit-sakit Gigi.PNG.PNG",
     description: "Contoh buku PDF yang di-host di Google Drive, bisa dibaca langsung di browser."
   },
     {
