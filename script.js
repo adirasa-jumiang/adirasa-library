@@ -56,13 +56,13 @@ const books = [
     {
     title: "Meong-Meong ( Dinni Tresnadewi )",
     file: "https://drive.google.com/file/d/1wY5pI5he7JQPZ-LAEbYg8BkyUucF3kcP/preview",
-    cover: "covers/Meong meong.PNG",
+    cover: "covers/Meong-meong.PNG",
     description: "Contoh buku PDF yang di-host di Google Drive, bisa dibaca langsung di browser."
   },
     {
     title: "Mainan dari Alam ( Dini W Tamam )",
     file: "https://drive.google.com/file/d/1MBDDoahh9jhWF-YOV4EsH6btpOIIIQ8K/preview",
-    cover: "covers/Mainan dari Alam.PNG",
+    cover: "covers/Mainan Dari Alam.PNG",
     description: "Contoh buku PDF yang di-host di Google Drive, bisa dibaca langsung di browser."
   }
 ];
