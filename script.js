@@ -82,6 +82,12 @@ const books = [
     file: "https://drive.google.com/file/d/1NDbmOgSwSHIejU_vEqj4_YzusLjmD7Cn/preview",
     cover: "covers/Benda Ajaib di Dapur Nenek.PNG",
     description: "Contoh buku PDF yang di-host di Google Drive, bisa dibaca langsung di browser."
+  },
+    {
+    title: "Wortel Wortel Weli ( Eni Priyanti )",
+    file: "https://drive.google.com/file/d/1igao8vMmbTFBrywGkiOG_J3R9M-A5WBV/preview",
+    cover: "covers/Wortel Wortel Weli.PNG",
+    description: "Contoh buku PDF yang di-host di Google Drive, bisa dibaca langsung di browser."
   }
 ];
 
