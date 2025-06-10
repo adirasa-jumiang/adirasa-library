@@ -64,6 +64,24 @@ const books = [
     file: "https://drive.google.com/file/d/1MBDDoahh9jhWF-YOV4EsH6btpOIIIQ8K/preview",
     cover: "covers/Mainan Dari Alam.PNG",
     description: "Contoh buku PDF yang di-host di Google Drive, bisa dibaca langsung di browser."
+  },
+    {
+    title: "Ayo Kenali Bakteri dan Virus ( KEMDIKBUD RI 2020 )",
+    file: "https://drive.google.com/file/d/1ja0l6OOtOo3ByFrZyELKsvOE1yekJQ6y/preview",
+    cover: "covers/Ayo Kenali Bakteri Virus.PNG",
+    description: "Contoh buku PDF yang di-host di Google Drive, bisa dibaca langsung di browser."
+  },
+    {
+    title: "Penerbangan Seumur Hidup ( Hello English )",
+    file: "https://drive.google.com/file/d/1DRdaLuZMqlj-yQV_NhmHzrLgP80xmVm3/preview",
+    cover: "covers/Penerbangan Seumur Hidup.PNG",
+    description: "Contoh buku PDF yang di-host di Google Drive, bisa dibaca langsung di browser."
+  },
+    {
+    title: "Benda Ajaib di Dapur Nenek ( Hasta Indriyana )",
+    file: "https://drive.google.com/file/d/1NDbmOgSwSHIejU_vEqj4_YzusLjmD7Cn/preview",
+    cover: "covers/Benda Ajaib di Dapur Nenek.PNG",
+    description: "Contoh buku PDF yang di-host di Google Drive, bisa dibaca langsung di browser."
   }
 ];
 
