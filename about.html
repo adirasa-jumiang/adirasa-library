@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>R.A. Adirasa</title>
+  <style>
+    body {
+      margin: 0;
+      /*font-family: sans-serif;*/
+      font-family: 'Arial', sans-serif;
+      background-color: #f9f9f9;
+      text-align: center;
+      padding: 20px;
+      overflow-x: hidden;
+    }
+
+    .wrapper {
+      display: flex;
+      transition: transform 0.3s ease;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      width: 250px;
+      height: 100vh;
+      background-color: #333;
+      color: white;
+      padding: 1em;
+      position: fixed;
+      top: 0;
+      left: -280px;
+      z-index: 1000;
+      transition: left 0.3s ease;
+      text-align: left;
+    }
+
+    .sidebar.open {
+      left: 0;
+    }
+
+    .sidebar h2 {
+      color: #fff;
+    }
+
+    .sidebar a {
+      display: block;
+      color: #ccc;
+      padding: 10px 0;
+      text-decoration: none;
+    }
+
+    .sidebar a:hover {
+      color: #fff;
+    }
+
+    /* Overlay (untuk HP) */
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.3);
+      z-index: 999;
+      display: none;
+    }
+
+    .overlay.active {
+      display: block;
+    }
+
+    .menu-btn {
+      position: fixed;
+      top: 1rem;
+      left: 1rem;
+      font-size: 24px;
+      cursor: pointer;
+      z-index: 1100;
+      background: #fff;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+/* css abc */
+h1 {
+      color: #006064;
+    }
+    .letter-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+      gap: 10px;
+      max-width: 600px;
+      margin: auto;
+    }
+    .letter {
+      background: #0097a7;
+      color: white;
+      font-size: 32px;
+      padding: 20px;
+      border-radius: 15px;
+      cursor: pointer;
+      transition: transform 0.2s, background 0.2s;
+    }
+    .letter:hover {
+      background: #00838f;
+    }
+    .letter:active {
+      transform: scale(1.2);
+      background: #4dd0e1;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="menu-btn" onclick="toggleSidebar()">☰</div>
+
+  <div class="sidebar" id="sidebar">
+    <br><h2>Menu</h2>
+    <a href="index.html">Beranda</a>
+    <a href="https://ra-adirasa.blogspot.com/">R.A. Adirasa</a>
+    <a href="help.html">Cara Pakai</a>
+    <a href="about.html">Tentang Aplikasi</a>
+  </div>
+
+  <div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
+
+  <h1>Tentang Aplikasi</h1>
+  <h2>ٱلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّٰهِ وَبَرَكَاتُهُ</h2>
+  <p>aplikasi ini dibuat dengan bantuan AI dengan basis bahasa pemerograman web ( html, css, javascript ) yang bertujuan untuk alat bantu 
+    para guru TK/RA atau orang tua dalam mengajarkan menyusun kata dari abjad A s/d Z dan pelafalannya. Perlu diingat pengawasan dari orang tua/wali 
+    perlu/penting ketika anak belajar dengan aplikasi ini, karena aplikasi ini tidak begitu sempurna dalam pelafalannya. Dikarenakan suaranya 
+    diambil dari TTS sistem otomatis dari browsernya yang mana pelafalannya masih pakai bahasa inggris bukan dari hasil rekaman dengan pelafalan 
+    bahasa Indonesia. Semoga bermanfaat dan Terimakasih
+  </p>
+  <h2>وَالسَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</h2>
+  <p style="color: green;">Masukan, saran dan pertanyaan silahkan hubungi nomor WA : 085104048765</p>
+
+<!-- menu -->
+  <script>
+    function toggleSidebar() {
+      const sidebar = document.getElementById("sidebar");
+      const overlay = document.getElementById("overlay");
+
+      sidebar.classList.toggle("open");
+      overlay.classList.toggle("active");
+    }
+
+  </script>
+
+</body>
+</html>
